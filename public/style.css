@@ -1,5 +1,13 @@
 body {
   margin: 20px;
+
+  --main-bg-color: #011F3C;
+  --game-area-bg-color: #054685;
+  --canvas-text-color: #FEDB3B;
+}
+
+h1 {
+  text-align: center;
 }
 
 code {
@@ -8,6 +16,7 @@ code {
 
 canvas {
   margin: auto;
+  background-color: var(--main-bg-color);
 }
 
 #user-stories {
